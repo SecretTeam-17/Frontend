@@ -1,7 +1,6 @@
 import "./App.css";
 import Form from "./components/Form.jsx";
 import { FormUserName } from "./components/FormUserName.jsx";
-import { Instruction } from "./components/Instruction.jsx";
 
 function App() {
   return (
