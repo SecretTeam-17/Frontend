@@ -1,7 +1,9 @@
+let text = "далее";
+
 function Button() {
   return (
     <button type="button" className="button">
-      далее
+      {text}
     </button>
   );
 }

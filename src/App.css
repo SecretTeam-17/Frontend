@@ -35,7 +35,8 @@
 
   --font-family-base: "Manrope", sans-serif;
 
-  --border-radius-small: 24px;
+  --border-radius-small: 16px;
+  --border-radius: 24px;
   --border-radius-large: 48px;
 }
 
@@ -222,7 +223,7 @@ body {
   width: 100%;
   max-width: 170px;
   max-height: 42px;
-  border-radius: var(--border-radius-small);
+  border-radius: var(--border-radius);
   border: none;
   box-shadow: 0px 10px 10px var(--color-secondary-gray);
   transition: all 0.5s ease;
@@ -260,6 +261,7 @@ body {
   margin-left: 298px;
   margin-top: 120px;
   position: relative;
+  margin-bottom: 200px;
 }
 
 .instruction__wrapper::before {
