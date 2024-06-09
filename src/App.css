@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Manrope";
-  src: url("./fonts/Manrope-Medium.woff2") format("woff2");
+  src: url("../src/assets/fonts/Manrope-Medium.woff2") format("woff2");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
@@ -8,7 +8,7 @@
 
 @font-face {
   font-family: "Manrope";
-  src: url("./fonts/Manrope-Bold.woff2") format("woff2");
+  src: url("../src/assets/fonts/Manrope-Bold.woff2") format("woff2");
   font-weight: 700;
   font-style: normal;
   font-display: swap;
@@ -16,7 +16,7 @@
 
 @font-face {
   font-family: "Manrope";
-  src: url("./fonts/Manrope-ExtraBold.woff2") format("woff2");
+  src: url("../src/assets/fonts/Manrope-ExtraBold.woff2") format("woff2");
   font-weight: 800;
   font-style: normal;
   font-display: swap;
@@ -265,7 +265,7 @@ body {
 }
 
 .instruction__wrapper::before {
-  content: url("./images/Polygon.png");
+  content: url("../src/assets/images/Polygon.png");
   position: absolute;
   right: -9px;
   bottom: -35px;
