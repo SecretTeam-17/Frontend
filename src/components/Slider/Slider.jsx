@@ -7,10 +7,6 @@ export const Slider = ({ data }) => {
 
   //Потом нужно прописать эти функции в зависимости от того что они выводят
   const [progressValue, setProgressValue] = useState(0);
-  const [progressValueTotal, setProgressValueTotal] = useState(5);
-
-  // let progressValue = 0;
-  // let progressValueTotal = 0;
 
   const prev = () => {
     setActiveId((activeId) => {
@@ -50,7 +46,7 @@ export const Slider = ({ data }) => {
                   <span className="slide__progress-begin">{progressValue}</span>
                   <span className="slide__progress-slash">/</span>
                   <span className="slide__progress-end">
-                    {progressValueTotal} пройдено
+                    {slide.progressValueTotal} пройдено
                   </span>
                 </p>
               </div>
