@@ -1,10 +1,10 @@
 import "./App.css";
-import Form from "./components/Form.jsx";
-import { FormUserName } from "./components/FormUserName.jsx";
+import Form from "./components/Form/Form.jsx";
+import { FormUserName } from "./components/Form/FormUserName.jsx";
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
       <div className="wrapper__form">
         <div className="wrapper__form-desc">
           <h1 className="wrapper__form-title">Приветствую!</h1>

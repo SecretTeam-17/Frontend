@@ -126,15 +126,13 @@ body {
   background-color: var(--color-secondary-gray);
 }
 
-.App {
+.app {
   min-height: 100vh;
   padding-inline: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-
-/* Стили формы */
 
 .wrapper__form {
   width: 100%;
@@ -155,175 +153,26 @@ body {
   gap: 12px;
   max-width: 305px;
 }
+
 .wrapper__form-title {
   font-size: 42px;
   color: var(--color-primary-purple);
 }
 
-/* Класс стилизации для вставки имени, откуда мы его берем я пока не знаю)) */
-.wrapper__form-username {
-  font-size: 32px;
-  color: var(--color-primary-purple);
-  /* после того как разберумся как втавлять имя, "display: none" нужно будет убрать */
-  display: none;
-}
-
-.form__greeting {
-  width: 60%;
-  display: flex;
-  flex-direction: column;
-  gap: 24px;
-}
-.user-box {
-  position: relative;
-}
-
-.error1,
-.error2 {
-  position: absolute;
-  top: -20px;
-  left: 20px;
-}
-
-.form__greeting-input {
-  width: 100%;
-  max-width: 440px;
-  min-height: 80px;
-  border-radius: var(--border-radius-small);
-  border: 2px solid var(--color-primary-violet);
-  background-color: var(--color-primary-white-card);
-  padding-left: 40px;
-  font-size: 24px;
-  color: var(--color-primary-purple);
-  &::placeholder {
-    margin: 0;
-    font-size: 24px;
-    font-weight: 700;
-    color: var(--color-secondary-gray);
-  }
-  &:focus {
-    border: 1px solid var(--color-primary-violet);
-  }
-}
-
-/* кнопки */
-.button {
-  background-color: rgb(132, 34, 230);
-  background: linear-gradient(
-    180deg,
-    rgba(132, 34, 230, 1) 0%,
-    rgba(132, 29, 234, 1) 54%,
-    rgba(131, 25, 238, 1) 100%
-  );
-  color: var(--color-primary-white-card);
-  text-transform: uppercase;
-  font-weight: 500;
-  letter-spacing: 2px;
-  font-size: 18px;
-  width: 100%;
-  max-width: 170px;
-  max-height: 42px;
-  border-radius: var(--border-radius);
-  border: none;
-  box-shadow: 0px 10px 10px var(--color-secondary-gray);
-  transition: all 0.5s ease;
-  cursor: pointer;
-}
-
-.button:hover {
-  background: none;
-  background-color: var(--color-primary-violet);
-  box-shadow: 0px 5px 5px var(--color-secondary-gray);
-}
-
-.button:disabled {
-  background-color: rgb(116, 116, 116);
-  background: linear-gradient(
-    180deg,
-    rgba(116, 116, 116, 1) 0%,
-    rgba(82, 82, 82, 1) 100%
-  );
-}
-
-.button--big {
-  font-size: 32px;
-  width: 100%;
-  max-width: 440px;
-  min-height: 80px;
-}
-
-/* Инструкция */
-.instruction__wrapper {
-  max-width: 418px;
-  max-height: 358px;
-  background-color: var(--color-primary-white-card);
-  border-radius: var(--border-radius-large);
-  display: flex;
-  flex-direction: column;
-  gap: 24px;
-  padding: 40px 60px 44px;
-  margin-left: 298px;
-  margin-top: 120px;
-  position: relative;
-  margin-bottom: 200px;
-}
-
-.instruction__wrapper::before {
-  content: url("../src/assets/images/Polygon.png");
-  position: absolute;
-  right: -9px;
-  bottom: -35px;
-}
-
-.instruction__wrapper-title {
-  font-size: 42px;
-  color: var(--color-primary-purple);
-}
-
-.instruction__wrapper-text {
-  margin-bottom: 40px;
-}
-
 @media (max-width: 850px) {
-  body {
-    background-color: tomato;
-  }
   .wrapper__form-title {
     font-size: 30px;
-  }
-  .instruction__wrapper {
-    margin-left: 100px;
-    margin-top: 100px;
   }
 }
 
 @media (max-width: 750px) {
-  body {
-    background-color: blueviolet;
-  }
   .wrapper__form-title {
     font-size: 30px;
-  }
-  .form__greeting-input {
-    font-size: 18px;
-    &::placeholder {
-      font-size: 18px;
-      font-weight: 500;
-    }
-  }
-  .button--big {
-    font-size: 24px;
   }
 }
 
 @media (max-width: 700px) {
-  body {
-    background-color: greenyellow;
-  }
   .wrapper__form {
     padding: 20px 25px;
-  }
-  .form__greeting-input {
-    padding-left: 10px;
   }
 }
