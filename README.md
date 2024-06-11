@@ -1,2 +1,2 @@
 1. npm i
-2. npx start
+2. npm start

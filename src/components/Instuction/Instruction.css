@@ -1,12 +1,12 @@
 .instruction__wrapper {
-  max-width: 418px;
-  max-height: 358px;
+  max-width: 32.65vw;
+  max-height: 49.7vh;
   background-color: var(--color-primary-white-card);
   border-radius: var(--border-radius-large);
   display: flex;
   flex-direction: column;
-  gap: 24px;
-  padding: 40px 60px 44px;
+  gap: 1.875vw;
+  padding: 5.55vh 4.69vw 6.1vh;
   margin-left: 298px;
   margin-top: 120px;
   position: relative;
