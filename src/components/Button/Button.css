@@ -11,13 +11,12 @@
   font-weight: 500;
   letter-spacing: 2px;
   font-size: 18px;
-  width: 100%;
-  max-width: 170px;
-  max-height: 42px;
+  max-width: 13.3vw;
+  max-height: 5.8vh;
   border-radius: var(--border-radius);
   border: none;
   box-shadow: 0px 10px 10px var(--color-secondary-gray);
-  transition: all 0.5s ease;
+  transition: all 0.2s ease;
   cursor: pointer;
 }
 
@@ -38,9 +37,8 @@
 
 .button--big {
   font-size: 32px;
-  width: 100%;
-  max-width: 440px;
-  min-height: 80px;
+  max-width: 100%;
+  min-height: 11vh;
 }
 
 @media (max-width: 750px) {
