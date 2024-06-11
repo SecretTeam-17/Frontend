@@ -1,0 +1,37 @@
+.instruction__wrapper {
+  max-width: 418px;
+  max-height: 358px;
+  background-color: var(--color-primary-white-card);
+  border-radius: var(--border-radius-large);
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 40px 60px 44px;
+  margin-left: 298px;
+  margin-top: 120px;
+  position: relative;
+  margin-bottom: 200px;
+}
+
+.instruction__wrapper::before {
+  content: url("../../assets/images/Polygon.png");
+  position: absolute;
+  right: -9px;
+  bottom: -35px;
+}
+
+.instruction__wrapper-title {
+  font-size: 42px;
+  color: var(--color-primary-purple);
+}
+
+.instruction__wrapper-text {
+  margin-bottom: 40px;
+}
+
+@media (max-width: 850px) {
+  .instruction__wrapper {
+    margin-left: 100px;
+    margin-top: 100px;
+  }
+}

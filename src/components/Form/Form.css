@@ -1,0 +1,53 @@
+.form__greeting {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.user-box {
+  position: relative;
+}
+
+.error1,
+.error2 {
+  position: absolute;
+  top: -20px;
+  left: 20px;
+}
+
+.form__greeting-input {
+  width: 100%;
+  max-width: 440px;
+  min-height: 80px;
+  border-radius: var(--border-radius-small);
+  border: 2px solid var(--color-primary-violet);
+  background-color: var(--color-primary-white-card);
+  padding-left: 40px;
+  font-size: 24px;
+  color: var(--color-primary-purple);
+  &::placeholder {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--color-secondary-gray);
+  }
+  &:focus {
+    border: 1px solid var(--color-primary-violet);
+  }
+}
+
+@media (max-width: 750px) {
+  .form__greeting-input {
+    font-size: 18px;
+    &::placeholder {
+      font-size: 18px;
+      font-weight: 500;
+    }
+  }
+}
+
+@media (max-width: 700px) {
+  .form__greeting-input {
+    padding-left: 10px;
+  }
+}

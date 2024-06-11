@@ -1,0 +1,7 @@
+/* Класс стилизации для вставки имени, откуда мы его берем я пока не знаю)) */
+.wrapper__form-username {
+  font-size: 32px;
+  color: var(--color-primary-purple);
+  /* после того как разберумся как втавлять имя, "display: none" нужно будет убрать */
+  display: none;
+}
