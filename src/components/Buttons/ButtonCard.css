@@ -1,0 +1,6 @@
+.button--card {
+  width: 196px;
+  height: 48px;
+  border-radius: var(--border-radius-small);
+  cursor: pointer;
+}

@@ -1,5 +1,6 @@
 import { useState } from "react";
-import { IconButton } from "../IconButton/IconButton";
+import { IconButton } from "../Buttons/IconButton";
+import { ButtonCard } from "../Buttons/ButtonCard";
 import "./Slider.css";
 
 export const Slider = ({ data }) => {
@@ -58,9 +59,7 @@ export const Slider = ({ data }) => {
                 src={slide.img}
                 alt={`Slide ${idx + 1}`}
               />
-              <button type="button" className="button button--card">
-                Начать
-              </button>
+              <ButtonCard text="Начать" />
             </div>
           </div>
         ))}
