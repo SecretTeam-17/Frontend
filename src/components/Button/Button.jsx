@@ -1,13 +1,11 @@
 import "./Button.css";
 
-let text = "далее";
-
-function Button() {
+const Button = (props) => {
   return (
     <button type="button" className="button">
-      {text}
+      {props.text}
     </button>
   );
-}
+};
 
 export { Button };

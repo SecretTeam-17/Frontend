@@ -9,7 +9,7 @@ function Instruction() {
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat eum
         accusantium facilis error alias sint consectetur?
       </p>
-      <Button />
+      <Button text="далее" />
     </div>
   );
 }
